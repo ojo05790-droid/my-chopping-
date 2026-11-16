@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: pink;
+    margin: 0;
+    padding: 20px;
+
+}
+
+h1{
+    text-align: center;
+    color: orange;
+
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: red;
+}
+#users{
+    display: grid;
+    gap: 20px;
+}
+
+.user-card{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
